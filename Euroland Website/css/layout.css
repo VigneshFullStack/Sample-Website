@@ -1,0 +1,48 @@
+section p {
+    text-indent: 50px;
+    text-align: justify;
+}
+.row {
+    margin: 0px;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+}
+ul li {
+    padding: 0 10px;
+}
+section {
+    margin-top: 10vh;
+    min-height: 93vh;
+    max-height: auto;
+}
+footer {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons input {
+    width: 150px;
+}
+
+/* media query */
+@media only screen and (max-width: 767px) {
+   .mt {
+       margin-top: 10px;
+   }
+}
+
+.errorMessage {
+    color: red;
+}
